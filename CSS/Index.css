@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lora', serif;
+}
+/*Estilo de las sections*/
+#Titulo{
+    width:400px;
+    height: 200px;
+    margin: 20px;
+}
+
+/* Estilos Generales */
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    line-height: 2.5em;
+}
+
+nav a{
+    color: #ddd;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+}
+nav a:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+/* Primer Nivel */
+
+nav>ul{
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav>ul>li{
+    float: left;
+}
+
+nav>ul>li>ul{
+    position: absolute;
+    display: none;
+}
+
+nav>ul>li:hover ul{
+    display: block;
+}
+
+nav>ul>li>ul>li{
+    background-color: #222;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+.contenedor > div,
+.contenedor .header,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+.contenedor .header{
+    background: #12203E;
+    color: #fff;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+.contenedor .contenido{
+    grid-column: span 2;
+}
+.contenedor .sidebar{
+    grid-column: 3/4;
+    background-color: antiquewhite;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+    min-height: 100px;
+}
+.contenedor .sidebar img{
+    width: 40%;
+}
+.contenedor .widget-1,
+.contenedor .widget-2{
+    background: #ff9a76;
+    color: #fff;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor .footer{
+    background: #12203E;
+    color: #fff;
+    grid-column: span 3;
+}
+@media screen and (max-width: 768px){
+    .contenedor .contenido{
+        grid-column: 1/-1;
+    }
+    .contenedor .sidebar{
+        grid-column: 1/-1;
+
+    }
+    .contenedor .widget-1{
+        grid-column: span 2;
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigacion 1</title>
+    <link rel="stylesheet" href="/CSS/Guia1-CSS/Investigacion1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="#">Guia 1</a> <ul>
+                        <li><a href="/HTML/Guia1-HTML/Calculadora.html">Ejemplo 1: Calculadora</a></li>
+                        <li><a href="/HTML/Guia1-HTML/Calculoareas.html">Ejemplo 2: Calculadora de areas</a></li>
+                        <li><a href="/HTML/Guia1-HTML/Diasmes.html">Ejemplo 3: Conocer meses y años</a></li>
+                        <li><a href="/HTML/Guia1-HTML/Complementario2.html">Complementario 2: Convercions de celsius a fahrenheit</a></li>
+                        <li><a href="/HTML/Guia1-HTML/Investigacion1.html">Investigacion 1: JavaScript no obstructivo</a></li>
+                        <li><a href="/HTML/Guia1-HTML/investigacion2.html">Investigacion 2: Tipos de Datos null y undifined</a></li>
+                    </ul></li>
+                    <li><a href="#">Guia 2</a></li>
+                    <li><a href="#">Guia 3</a></li>
+                    <li><a href="#">Guia 4</a></li>
+                    <li><a href="#">Guia 5</a></li>
+                    <li><a href="#">Guia 6</a></li>
+                    <li><a href="#">Guia 7</a></li>
+                    <li><a href="#">Guia 8</a></li>
+                    <li><a href="#">Guia 9</a></li>
+                    <li><a href="#">Guia 10</a></li>
+        </ul>
+
+    </nav>
+    <h1>JavaScript no obstructivo.</h1>
+    <p>JavaScript no obstructivo es un paradigma floreciente en el uso del lenguaje de programación JavaScript, utilizado en la Web. Aunque el término no se define formalmente, sus principios generalmente incluyen:<br>
+        Separación de la funcionalidad JavaScript (la "capa del comportamiento") de las capas de estructura/contenido y de presentación de una página.<br>
+        Uso de buenas prácticas a fin de evitar los problemas de incompatibilidad de la programación tradicional en JavaScript (tales como inconsistencias entre navegadores y falta de escalabilidad)</p>
+    <h1>Ejemplo de JavaScript no obstructivo.</h1>
+    <p>Usando métodos tradicionales de incluir <br>
+        JavaScript dentro del html <br>
+        a href="#" onclick="openFullImage()"
+        img src="foto.jpg" alt="foto en tamaño normal"/ /a<br>
+        JavaScript fuera del html<br>
+        HTML<br>
+        a href="#"<br>
+        img src="foto.jpg" alt="foto en tamaño normal" / /a<br>
+        JavaScript<br>
+        Este codigo crean la funcion que hemos desarrollado en el documento aparte de JavaScript <br>
+        mostrara la imagen en el html gracias a la redireccion que este hace con la etiqueta que <br>
+        esta en el html<br>
+        document.links[0].onclick = openFullImage;<br> 
+        function openFullImage(){}
+    </p>
+</body>
+</html>

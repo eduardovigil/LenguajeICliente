@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+h1       {
+    background-color:Lavender;
+    border:ridge 8px Indigo;
+    color:Indigo;
+    font-family:'Oswald',Tahoma,Helvetica,"Liberation Sans";
+    font-size:3.2em;
+    font-weight:600;
+    margin:0 auto;
+}
+
+p        {
+    background-color:Lavender;
+    border:groove 2px Indigo;
+    font-family:'Pontano Sans',Verdana,Helvetica,"Liberation Sans";
+    font-size:12px;
+}
+
+fieldset {
+    background-color:Lavender;
+    border:inset 3px Indigo;
+}
+.back-button {
+    background-color: rgba(205,125,125,1); /* #0960C9 */
+    color: #ccc;
+    display: block;
+    font-size: 1.2em;
+    font-weight: Bold;
+    height: 50px;
+    margin: 32px auto;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 24%;
+    }
+    .back-button:hover {
+    background-color: rgba(225,135,130,0.75);
+    color: #fff;
+    text-decoration: none;
+    }

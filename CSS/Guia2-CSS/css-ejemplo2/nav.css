@@ -1,0 +1,57 @@
+.back-button {
+    background-color: rgba(205,125,125,1); /* #0960C9 */
+    color: #ccc;
+    display: block;
+    font-size: 1.2em;
+    font-weight: Bold;
+    height: 50px;
+    margin: 32px auto;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 24%;
+    }
+    .back-button:hover {
+    background-color: rgba(225,135,130,0.75);
+    color: #fff;
+    text-decoration: none;
+    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+     height: 100%;
+}
+
+body {
+    background-color: #22CC99;
+    font-size: 16px;
+}
+
+#three-d {
+    background-color: #7ca0b6;
+    background-image: url('./../../../IMG/Guia2-IMG/three-d.jpg');
+    border: 1px solid #424242;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    padding: 9px 12px;
+    width: 998px;
+}
+
+#three-d h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 1px 0px #999, 
+                 0px 2px 0px #888, 
+                 0px 3px 0px #777, 
+                 0px 4px 0px #666, 
+                 0px 5px 0px #555, 
+                 0px 6px 0px #444, 
+                 0px 7px 0px #333, 
+                 0px 8px 7px #001135;
+    font: 3.5em 'ChunkFiveRegular';
+}

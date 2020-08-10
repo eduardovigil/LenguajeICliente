@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigación</title>
+    <link rel="stylesheet" href="/CSS/Guia3-CSS/investigacion.css">
+</head>
+<body>
+    <h1>Clausuras en Javascript</h1>
+    <h2>¿Qué es clausura en Javascript?</h2>
+    <p>El concepto es "clausurar" el contexto en el que se ejecuta una funcion, a esta funcion se la denomina Closure.</p>
+    <h2>¿Para qué sirven las clausuras?</h2>
+    <p>En donde se encuentra una funcion dentro de otra, la funcion interna tiene acceso a las variables de la funcion externa.</p>
+    <h2>Ejemplos de clausuras</h2>
+   <div class="hols">
+    <h3>Ejemplo 1: mensajes</h3>
+   </div>
+   <div class="hols">
+    <p>function Mensaje(){<br>
+    var hola = "Que tal"; <br>
+    funtion quepasa(){ <br>
+    alert(hola); <br>}<br>
+    quepasa(); <br>} <br>
+    hola();</p>
+    <div class="hola">
+    <h3>Ejemplo 2: Contador</h3>
+    <p>function contar({<br>
+    var conta = 0; <br>
+     return function (){ <br>
+    return contar += 1; <br>}<br>
+    })(); <br>
+    contar();</p>
+    </div>
+    <br>
+    <div class="hola">
+        <h3>Ejemplo 3: Suma</h3>
+    </div>
+    <div id="resultado"></div>
+    <a href="/HTML/Index.html" class="back-button">Inicio</a>
+</body>
+<script src="/JS/Guia3-JS/investigacion.js"></script>
+</html>

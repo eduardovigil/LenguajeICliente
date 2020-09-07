@@ -1,0 +1,121 @@
+@import "compass/css3";
+ .responstable {
+	 margin: 1em 0;
+	 width: 100%;
+	 overflow: hidden;
+	 background: #fff;
+	 color: rgba(225,135,130,0.75);
+	 border-radius: 10px;
+	 border: 1px solid rgba(225,135,130,0.75);
+}
+ .responstable tr {
+	 border: 1px solid #d9e4e6;
+}
+ .responstable tr:nth-child(odd) {
+	 background-color: #eaf3f3;
+}
+ .responstable th {
+	 display: none;
+	 border: 1px solid #fff;
+	 background-color: rgba(225,135,130,0.75);
+	 color: #fff;
+	 padding: 1em;
+}
+ .responstable th:first-child {
+	 display: table-cell;
+	 text-align: center;
+}
+ .responstable th:nth-child(2) {
+	 display: table-cell;
+}
+ .responstable th:nth-child(2) span {
+	 display: none;
+}
+ .responstable th:nth-child(2):after {
+	 content: attr(data-th);
+}
+ @media (min-width: 480px) {
+	 .responstable th:nth-child(2) span {
+		 display: block;
+	}
+	 .responstable th:nth-child(2):after {
+		 display: none;
+	}
+}
+ .responstable td {
+	 display: block;
+	 word-wrap: break-word;
+	 max-width: 7em;
+}
+ .responstable td:first-child {
+	 display: table-cell;
+	 text-align: center;
+	 border-right: 1px solid rgba(225,135,130,0.75);
+}
+ @media (min-width: 480px) {
+	 .responstable td {
+		 border: 1px solid rgba(225,135,130,0.75);
+	}
+}
+ .responstable th, .responstable td {
+	 text-align: left;
+	 margin: 0.5em 1em;
+}
+ @media (min-width: 480px) {
+	 .responstable th, .responstable td {
+		 display: table-cell;
+		 padding: 1em;
+	}
+}
+ body {
+	 padding: 0 2em;
+	 font-family: Arial, sans-serif;
+	 color: rgba(225,135,130,0.75);
+	 background: #f2f2f2;
+}
+ h1 {
+	 font-family: Verdana;
+	 font-weight: normal;
+	 color: rgba(225,135,130,0.75);
+}
+ h1 span {
+	 color: rgba(225,135,130,0.75);
+}
+
+.forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    width: 30%
+}
+.btn {
+    color: #fff;
+    background-color: rgba(224, 95, 89, 0.75);
+    border-color: rgba(231, 106, 100, 0.75);
+}
+.btn:hover {
+    color: #fff;
+    background-color: rgba(236, 65, 56, 0.75);
+    border-color: rgba(187, 52, 45, 0.75);
+}
+.back-button {
+    background-color: rgba(205,125,125,1); /* #0960C9 */
+    color: #ccc;
+    display: block;
+    font-size: 1.2em;
+    font-weight: Bold;
+    height: 50px;
+    margin: 32px auto;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 24%;
+    }
+    .back-button:hover {
+    background-color: rgba(225,135,130,0.75);
+    color: #fff;
+    text-decoration: none;
+    }

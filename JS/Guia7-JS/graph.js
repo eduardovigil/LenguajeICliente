@@ -37,7 +37,7 @@ function initAll(){
     //Dibujo del gráfico de barras
 var radioButtons = document.getElementsByTagName("input");
 var currDirection = getButton("direction");
-var imgSrc = "img/" + getButton("color");
+var imgSrc = "../../IMG/Guia7-IMG/" + getButton("color");
 var thisChart = (getButton("type") == "browser") ? bChart : jsChart;
 var chartBody = "<h2>" + thisChart.name + "</h2>\n<table>\n";
 for(var i=0; i<thisChart.years.length; i++){

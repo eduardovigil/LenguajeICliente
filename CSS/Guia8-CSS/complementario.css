@@ -1,0 +1,52 @@
+#imgwrapper {
+    background-color: rgb(214, 168, 97);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffbc', endColorstr='#f9fccf',GradientType=1 ); 
+    border-radius: 25px;
+    border: 6px ridge rgba(9, 11, 12, 0.75);
+    height: auto;
+    margin: 20px auto;
+    padding: 6px 18px;
+    width: 80%;
+}
+h1{
+    text-align: center;
+    font: Normal 1em/1 'Cantarell-Regular',Arial,Helvetica,"Liberation Sans";
+    font-size: 35px;
+}
+#imgwrapper p {
+    color: black;
+    font: Normal 1em/1 'Cantarell-Regular',Arial,Helvetica,"Liberation Sans";
+}
+img {
+
+	display: block;
+	height: 302px;
+	width: 500px;
+	margin: 0 auto;
+}
+.botones{
+    position: relative;
+    top: 140px;
+    display: flex;
+}
+#btnS{
+    background-color: rgba(225,135,130,0.75);;
+    margin-left: 990px;
+    height: 50px;
+    width: 45px;
+}
+#btnA{
+    background-color: rgba(225,135,130,0.75);;
+    height: 50px;
+    width: 45px;
+}
+@font-face { 
+    font-family: 'Cantarell-Regular'; 
+    src: url('../fonts/Cantarell-Regular.otf'); 
+    src: url('../fonts/Cantarell-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/Cantarell-Regular.woff') format('woff'), 
+         url('../fonts/Cantarell-Regular.ttf') format('truetype'), 
+         url('../fonts/Cantarell-Regular.svg#Cantarell-Regular') format('svg'); 
+    font-weight: normal; 
+    font-style: normal; 
+}

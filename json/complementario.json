@@ -1,0 +1,51 @@
+{
+    "title": "Las Mejores Peliculas del Año",
+    "link": "https://movidy.co/peliculas",
+    "description": "Las peliculas más interesantes y increibles de este tiempo",
+    "language": "es",
+    "items": [
+        {
+            "id":"1",
+            "title1" : "Primeras Vacaciones",
+            "pro1"  : "Marion y Bem",
+            "description1": "Marion y Ben han alcanzado la treintena y viven, en soledad, en París. Gracias a Tinder, estos se conocen y la química entre ambos es instantánea. Ambos parecen entenderse a la perfección y, por ello, deciden irse de vacaciones juntos, a pesar del poco tiempo que han pasado y de lo poco que se conocen. La reciente pareja decide escoger Bulgaria como el lugar de destino para esta escapada, pero el idilio que esperan encontrarse acabará convirtiéndose en una aventura llena de desastres donde tendrán que superar todo tipo de dificultades para descubrir si el amor que sienten es real o algo pasajero.",
+            "director1": "Patrick Cassir"
+        },
+        {
+            "id":"2",
+            "title2" : "Zohan: Licencia Para Peinar",
+            "pro2"  : "Zohan",
+            "description2": "Zohan, un peculiar y muy competente agente israelí de los servicios secretos del Mossad, finge su muerte para poder trasladarse de Israel a Nueva York y cumplir allí el sueño de su vida: convertirse en peluquero y estilista. Aunque Zohan se ha propuesto olvidar su peligrosa vida como agente de la lucha antiterrorista, pronto se da cuenta de que no es tan sencillo.",
+            "director2": "Dennis Dugan"
+        },
+        {
+            "id":"3",
+            "title3" : "Bill & Ted Face The Music",
+            "pro3"  : "Bill y Ted",
+            "description3": "A dos aspirantes a rockeros de San Dimas, California, se les dijo una vez que salvarían el universo durante una aventura de viaje en el tiempo, pero se encuentran como padres de mediana edad que aún intentan poner en marcha una canción exitosa y cumplir su destino. Sin suerte e inspiración, Bill y Ted emprendieron otra aventura de viaje en el tiempo para buscar la canción que establecerá su mundo correcto y traerá armonía al universo tal como lo conocemos.",
+            "director3": "Dean Parisot"
+        },
+        {
+            "id":"4",
+            "title4" : "Proyecto Power",
+            "pro4"  : "Art, Frank y Robin",
+            "description4": "Comienza a correrse la voz por las calles de Nueva Orleans de una misteriosa pastilla nueva que le confiere superpoderes únicos a cada persona que la consume. ¿La trampa? No sabes qué puede pasar hasta que la tomas... Algunos adquieren una piel a prueba de balas, invisibilidad y fuerza sobrehumana, mientras que otros padecen una reacción más letal. Con la llegada de la pastilla, la tasa de delitos de la ciudad escala a niveles peligrosos, por lo que un policía local (Joseph Gordon-Levitt) se une a una traficante de drogas adolescente (Dominique Fishback) y a un exsoldado motivado por un plan de venganza secreto (Jamie Foxx) para enfrentar con poder al poder. Tanto es así, que se arriesgan a tomar la pastilla con el objetivo de encontrar y detener al grupo responsable de su elaboración.",
+            "director4": "Henry Joost"
+        },
+        {
+            "id":"5",
+            "title5" : "Irresistible",
+            "pro5"  : "Gary Zimmer",
+            "description5": "Gary Zimmer, el principal estratega del Comité Nacional Demócrata, ve un vídeo de un Coronel de la Marina hablando a favor de los derechos de los trabajadores sin papeles y cree haber encontrado la clave para volverse a ganar el corazón del país. Para contraatacar la estrategia de Zimmer, el Comité Nacional Republicano le enfrenta con su némesis Faith, haciendo que lo que empezó como un pequeño enfrentamiento, aumente a una batalla por conquistar el corazón de Estados Unidos.",
+            "director5": "Jon Stewart"
+        },
+        {
+            "id":"6",
+            "title6" : "Dangerous Lies",
+            "pro6"  : "Katie y Adam",
+            "description6": "Para sorpresa de todos, un anciano millonario le deja su herencia a su nueva cuidadora, que se ve envuelta en una red de engaños y asesinatos. Si quiere sobrevivir, no puede fiarse de nadie, ni siquiera de sus seres queridos",
+            "director6": "Michael Scott"
+        }
+
+    ]
+}

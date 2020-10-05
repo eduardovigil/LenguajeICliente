@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Galería de autos de carrera</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Caudex:400,400italic" />
+    <link rel="stylesheet" href="../../CSS/Guia10-CSS/gallery.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        if (typeof jQuery == 'undefined') {
+            document.write(unescape("%3Cscript src='jquery/jquery.js'type = 'text/javascript' % 3E % 3C / script % 3E"));
+ }
+    </script>
+    <script src="../../JS/Guia10-JS/galeria.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#galeria").galeria();
+        });
+    </script>
+</head>
+
+<body>
+    <section>
+        <article>
+            <div id="galeria">
+                <img src="../../IMG/Guia10-IMG/mercedes-benz.jpg" alt="Mercedes Benz W05" title="Mercedes BenzW05" />
+                <img src="../../IMG/Guia10-IMG/red-bull.jpg" alt="Red Bull RB10" title="Red Bull RB10" />
+                <img src="../../IMG/Guia10-IMG/williams.jpg" alt="Williams" title="Williams FW36" />
+                <img src="../../IMG/Guia10-IMG/ferrari.jpg" alt="Ferrari F14 T" title="Ferrari F14 T" />
+                <img src="../../IMG/Guia10-IMG/force-india.jpg" alt="Force India VJM07" title="Force India VJM07" />
+                <img src="../../IMG/Guia10-IMG/mc-claren.jpg" alt="McClaren MP4-29" title="McClaren MP4-29" />
+                <img src="../../IMG/Guia10-IMG/lotus.jpg" alt="Lotus E22" title="Lotus E22" />
+                <img src="../../IMG/Guia10-IMG/sauber.jpg" alt="Sauber C33" title="Sauber C33" />
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
